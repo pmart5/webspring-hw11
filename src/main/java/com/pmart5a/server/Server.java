@@ -1,4 +1,4 @@
-package com.pmart5a;
+package com.pmart5a.server;
 
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
@@ -16,7 +16,7 @@ import java.util.concurrent.Executors;
 public class Server {
 
     private final int port;
-    final ExecutorService threadPool;
+    private final ExecutorService threadPool;
 
     private final List<String> validPaths = List.of("/index.html", "/spring.svg", "/spring.png",
             "/resources.html", "/styles.css", "/app.js", "/links.html", "/forms.html", "/classic.html",
