@@ -13,7 +13,7 @@ import java.util.List;
 import static com.pmart5a.enums.ErrorMsg.*;
 import static com.pmart5a.enums.ParametersStrings.*;
 import static com.pmart5a.enums.ResponseMsg.*;
-import static com.pmart5a.servaces.MessageDesigner.getSystemDesign;
+import static com.pmart5a.services.MessageFormatter.getSystemDesign;
 
 public class Main {
 

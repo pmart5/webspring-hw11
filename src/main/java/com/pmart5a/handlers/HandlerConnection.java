@@ -17,7 +17,7 @@ import static com.pmart5a.enums.ResponseMsg.*;
 import static com.pmart5a.enums.SystemMsg.*;
 import static com.pmart5a.server.Server.*;
 
-import static com.pmart5a.servaces.MessageDesigner.getSystemDesign;
+import static com.pmart5a.services.MessageFormatter.getSystemDesign;
 
 public class HandlerConnection implements Runnable {
 

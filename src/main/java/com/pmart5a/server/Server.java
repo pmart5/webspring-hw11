@@ -13,7 +13,7 @@ import java.util.concurrent.Executors;
 import static com.pmart5a.enums.ErrorMsg.*;
 import static com.pmart5a.enums.ParametersInt.*;
 import static com.pmart5a.enums.SystemMsg.*;
-import static com.pmart5a.servaces.MessageDesigner.getSystemDesign;
+import static com.pmart5a.services.MessageFormatter.getSystemDesign;
 
 public class Server {
 
